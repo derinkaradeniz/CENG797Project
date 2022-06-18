@@ -5,9 +5,6 @@ import time
 from adhoccomputing.GenericModel import GenericModel
 from adhoccomputing.Generics import *
 from adhoccomputing.Experimentation.Topology import Topology
-#from adhoccomputing.Networking.LinkLayer.GenericLinkLayer import GenericLinkLayer
-#from adhoccomputing.Networking.NetworkLayer.GenericNetworkLayer import GenericNetworkLayer
-#from adhoccomputing.Networking.LogicalChannels.GenericChannel import GenericChannel
 from adhoccomputing.Networking.PhysicalLayer.UsrpB210OfdmFlexFramePhy import  UsrpB210OfdmFlexFramePhy
 from adhoccomputing.Networking.ApplicationLayer.MessageSegmentation import *
 from csmaPlain import CsmaPlain, CsmaPlainConfigurationParameters
